@@ -30,8 +30,6 @@ div{
 .coordinate {
     font-size: 22px;
     float: right;
-    position: relative;
-    right: 15%;
 }
 
 .caratteristiche{
@@ -51,5 +49,5 @@ div{
 .cultura{
     position: relative;
     left: 1.5%;
-    font-size: 16px;
+    font-size: 20px;
 }
