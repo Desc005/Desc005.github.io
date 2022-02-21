@@ -27,6 +27,13 @@ div{
     font-size: 22px;
 }
 
+.coordinate {
+    font-size: 22px;
+    float: right;
+    position: relative;
+    right: 15%;
+}
+
 .caratteristiche{
     font-size: 22px;
 }
@@ -36,13 +43,13 @@ div{
 }
 .titoletto{
     position: relative;
-    left: 43%;
+    left: 40%;
     font-size: 37px;
     width: 400px;
 }
 
 .cultura{
     position: relative;
-    left: 3%;
-    font-size: 20px;
+    left: 1.5%;
+    font-size: 16px;
 }
