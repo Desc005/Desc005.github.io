@@ -6,26 +6,42 @@
 }
 
 body{
-    background: #ebebeb;
+    background: #dbd8ad;
+}
+
+div{
+    font-family: sans-serif;
 }
 
 .titolo{
     font-family: rinascimento, serif;
-    font-size: 25px;
-    width: 180px;
+    font-size: 50px;
+    width: 500px;
     position: relative;
     left: 2%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .anno {
-    font-size: 12px;
+    font-size: 22px;
 }
 
 .caratteristiche{
-    font-size: 12px;
+    font-size: 22px;
 }
 
 .lista{
     margin-top: -0.01px;
+}
+.titoletto{
+    position: relative;
+    left: 43%;
+    font-size: 37px;
+}
+
+.cultura{
+    position: relative;
+    left: 3%;
+    font-size: 20px;
 }
