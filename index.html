@@ -1,41 +1,26 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="storia.css">
-    <link rel="shortcut icon" href="uomoVitruviano.jpg">
-    <title>Il rinascimento</title>
+    <title>3AI Random Number Genarator</title>
+    <link rel="shortcut icon" href="photo_2022-02-28_17-58-13.jpg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="titolo">Il Rinascimento</div>
+<div class="upper_bar">
+    <div class="credits">Dennis Scacciavillani</div>
+    <a href="https://github.com/Desc005/Desc005.github.io" target="_blank"><img src="github-outline-fill-svgrepo-com.svg" class="github"></a><img src="instagram-svgrepo-com.svg"
+                                                                       class="instagram"></div>
+<div class="title">Generatore di numeri casuali</div>
 <br>
-<div class="anno">Periodo: 1450-1550</div>
-<br>
-<div class="caratteristiche">Caratteristiche:</div>
-<ul class="caratteristiche lista">
-    <li> uomo al centro dell'universo;</li>
-    <li> et&#224; classica;</li>
-    <li>fine medioevo;</li>
-    <li>rinascita;</li>
-</ul>
-<div class="titoletto">Caratteristiche culturali:</div>
-<br>
-<div class="cultura">Il periodo compreso tra il 1450 e il 1550 vide lo sviluppo parallelo e contemporaneo di due eventi
-    culturali fondamentali nella storia europea: <b>Il Rinascimento</b> e <b>La Riforma Protestante</b>.<br>
-    Si caratterizzarono per il fatto di rifiutare le credenze e i comportamenti dell'epoca che li aveva preceduti.
-    Entrambi volevano far ritornare l'antica Roma, nel caso del Rinascimento, la chiesa delle<br>
-    origini, nel caso della Riforma. Con questa operazione, entrambi hanno contribuito in modo decisivo alla nascita del
-    concetto di Medioevo, termine polemico e dispregiativo con il quale gli intellettuali<br>
-    rinascimentali e i riformatori indicarono il lungo intervallo che aveva separato la fine del declino di Roma o della
-    chiesa Apostolica dal consapevole tentativo di riportarlo in vita e farlo ritornare<br>
-    in tutto il suo splendore. Il termine rinascimento non indica un'epoca della storia, bensì un movimento culturale e
-    artistico. Il rinascimento fu accompagnato da uan tendenza culturale che viene chiamata<br>
-    Umanesimo; tale termine sta a indicare il rinnovato interesse che innumerevoli intellettuali europei nutrivano per
-    la letteratura classica, considerata maestra insuperabile di <i>humanitas</i>: di tutte<br>
-    quelle qualit&#224; e di quelle caratteristiche che distinguono l'essere umano dalle bestie e lo elevano al di sopra
-    degli animali. Il rinascimento potrebbe essere definito, quindi, come il tentativo di <br>
-    di trasferire a tutti gli ambiti della vita umana quell'imitazione del modello romano che gli intellettuali
-    umanistici praticarono nel campo della lingua e della letteratura.
-</div>
+<form method="get" action="generate_numbers.php">
+    <label for="nNum"></label>
+    <div class="text">Numeri da generare: <input id="nNum" type="number" min="1" max="5" class="box"></div>
+    <br>
+    <label for="min"></label>
+    <div class="text">Minimo: <input id="min" type="number" min="0" max="99" class="box"></div>
+    <label for="max"></label>
+    <div class="text">Massimo: <input id="max" type="number" min="0" max="99" class="box"></div>
+</form>
 </body>
 </html>
