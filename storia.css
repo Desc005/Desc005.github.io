@@ -27,6 +27,11 @@ div{
     font-size: 22px;
 }
 
+.coordinate {
+    font-size: 22px;
+    float: right;
+}
+
 .caratteristiche{
     font-size: 22px;
 }
@@ -36,7 +41,7 @@ div{
 }
 .titoletto{
     position: relative;
-    left: 43%;
+    left: 40%;
     font-size: 37px;
     width: 400px;
 }
