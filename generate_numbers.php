@@ -41,7 +41,7 @@ if (isset($_GET['nNum'], $_GET['min'], $_GET['max'])) {
         for ($i = 0; $i < $nNum; $i++) {
             $num = rand($min, $max);
             echo "<div class='result'>" . $i + 1;
-            echo ". " . $num . "</div><br> ";
+            echo ".&ensp;" . $num . "</div><br> ";
         }
     } else {
         echo "<div class='error'>Errore: Il numero minimo non può essere più grande del numero massimo";
