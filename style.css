@@ -1,68 +1,104 @@
-div{
+div {
     font-family: sans-serif;
 }
 
-.title{
+.title {
     font-size: 40px;
     font-family: sans-serif;
     text-align: center;
     margin-top: 2em;
 }
 
-.upper_bar{
+.upper_bar {
     background-color: cornflowerblue;
     width: 100%;
     height: 6em;
 }
 
-.text{
-    text-align: center;
+.text {
+    position: relative;
+    left: 40%;
     margin-top: 1em;
     font-size: 30px;
 }
 
-.box{
+.box {
     font-size: 25px;
     text-align: center;
 }
 
-.credits{
+.credits {
     position: relative;
     top: 1.25em;
     left: 3em;
     font-size: 25px;
 }
 
-.github{
+.github {
     position: relative;
     bottom: 5px;
     right: 2%;
-    width: 50px;
+    width: 60px;
     float: right;
-    padding: 0.1% 0.1%;
     border-radius: 25px;
     transition: 0.3s;
 }
 
-.github:hover{
+.github:hover {
     background-color: orange;
+    animation: heartBeat;
+    animation-duration: 2.5s;
 }
 
-.instagram{
+.instagram {
     position: relative;
     bottom: 5px;
-    right: 2%;
-    width: 100px;
+    right: 5%;
+    width: 60px;
     float: right;
-    border-radius: 25px;
-    margin-right: 50px;
+    border-radius: 5px;
     transition: 0.3s;
 }
 
-.instagram:hover img{
-    visibility: hidden;
+.instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    animation: flash;
+    animation-duration: 0.5s;
 }
 
-.instagram:hover{
-    background: url("instagram-svgrepo-com2.svg") no-repeat;
+.submit{
+    background: #4da6ff;
+    position: relative;
+    margin-top: 5%;
+    width: 115px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+    left: 45%;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.result{
+    margin-top: 5px;
+    position: relative;
+    left: 47%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.error{
+    text-align: center;
+    margin-left: 25px;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 30px;
 }
