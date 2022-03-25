@@ -5,7 +5,6 @@
     <title>3AI Random Numbers Generator</title>
     <link rel="shortcut icon" href="photo_2022-02-28_17-58-13.jpg">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 <div class="upper_bar">
